@@ -1,0 +1,13 @@
+import(gee)
+import(geepack)
+import(mvtnorm)
+importFrom(graphics, plot)
+importFrom(stats, predict, rnorm, sd, contrasts, glm, lm, model.extract,
+             model.matrix, pchisq, printCoefmat, quasibinomial,
+             var)
+exportPattern("^[[:alpha:]]+")
+S3method(plot, swgee)
+S3method(print, swgee)
+S3method(print, summary.swgee)
+S3method(summary, swgee)
+exportClasses("swgee")
