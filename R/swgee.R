@@ -129,7 +129,7 @@ function(formula, data = parent.frame(), id, family=family, corstr = "independen
             inlocdata$id <- id
             inlocdata <- as.data.frame(inlocdata)
             wgtprob <- NULL
-            fit <- geeglm(formula, id=id, weights=wgtprob, data=inlocdata, family=family, corstr=corstr)
+            fit <- suppressWarnings(geeglm(formula, id=id, weights=wgtprob, data=inlocdata, family=family, corstr=corstr))
             beta <- as.numeric(fit$geese$beta)
             varbeta <- diag(fit$geese$vbeta)
             betainfo.k <- c(lambda[k], beta, varbeta)
