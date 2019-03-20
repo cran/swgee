@@ -1,13 +1,13 @@
-b0287d728bcce077b8b9bc6b131ed0e2 *DESCRIPTION
+bcce5bdbb10cb298697340ecb6d9319f *DESCRIPTION
 e4dedf7e20fd7bb3b406ef7c57ac7ed6 *NAMESPACE
 791352bbaa37decd01859e19ea313db7 *R/getsimexest.R
 67e0c120283d13f805782b6079a72700 *R/plot.swgee.R
 f5498c1384aad1e2dca58a5e1aa8adb5 *R/print.summary.swgee.R
 16cb36f6f03501c230948167b8555394 *R/print.swgee.R
 15f1ee6e65e491aa439bf7844e5a3767 *R/summary.swgee.R
-fccc3669e8e332ed719b0c4a7006f464 *R/swgee.R
-fb5cea4d653f30b738a761152c545c90 *build/partial.rdb
-49780c854a476c45abfea38d56485d9d *data/BMI.rda
+5817934b15805b227dfc6b12ad42ab1d *R/swgee.R
+7b87ed72f8e5bee7ad8eccf972f9fd7d *build/partial.rdb
+4cb57d52e0ae4788da455ab2a7b78847 *data/BMI.rda
 f0c0acfd1fdbcd539f738a7fef6db706 *man/BMI.Rd
 070ea1a4c2791462373ceb893b0765df *man/getsimexest.Rd
 0e44a333a466fda875e21d5d9f7a702d *man/plot.swgee.Rd
@@ -15,4 +15,4 @@ f0c0acfd1fdbcd539f738a7fef6db706 *man/BMI.Rd
 dcd4a76712b558607c3eb35aec7d9463 *man/print.swgee.Rd
 7c64f89b30c9d928759a5f2c2f55229d *man/summary.swgee.Rd
 1a5e3c18d0b91c1052887d54e1d5cce5 *man/swgee-package.Rd
-568e7300156aa2b2ffaf018fe4dae415 *man/swgee.Rd
+b473d169918e4139804b65dad0e895ca *man/swgee.Rd

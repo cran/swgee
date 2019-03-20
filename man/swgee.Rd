@@ -63,7 +63,6 @@ Juan Xiong<jxiong@szu.edu.cn>, Grace Y. Yi<yyi@uwaterloo.ca>
 
 \examples{
 require(gee)
-require(mvtnorm)
 data(BMI)
 bmidata <- BMI
 
@@ -90,7 +89,6 @@ output2 <- swgee(bbmi~sbp+chol+age, data = bmidata, id = id,
 
 summary(output2)
 }
-
 
 
 
